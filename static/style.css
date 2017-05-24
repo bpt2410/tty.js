@@ -44,6 +44,7 @@ html.maximized {
   left: 20px;
   z-index: 1000;
   box-shadow: rgba(0, 0, 0, 0.8) 2px 2px 20px;
+  height: 500px;
 }
 
 .maximized .window {
@@ -64,6 +65,7 @@ html.maximized {
   padding: 1px 0;
   font-family: "DejaVu Sans Mono", "Liberation Mono", monospace;
   color: #fafafa;
+  display: none;
 }
 
 .dark .bar,
@@ -110,6 +112,7 @@ html.maximized {
   font-size: 11px;
   color: #f0f0f0;
   background: #000;
+  height: 500px;
 }
 
 .reverse-video {
@@ -143,6 +146,7 @@ h1 {
   background: none;
   border: none;
   -webkit-appearance: none;
+  display: none;
 }
 
 #open {

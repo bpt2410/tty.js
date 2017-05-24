@@ -897,6 +897,9 @@ function load() {
   off(document, 'load', load);
   off(document, 'DOMContentLoaded', load);
   tty.open();
+  setTimeout(function() {
+    document.getElementById("open").click();
+  }, 1000);
 }
 
 on(document, 'load', load);
