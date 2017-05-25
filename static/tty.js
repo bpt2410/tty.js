@@ -235,8 +235,8 @@ function Window(socket) {
   this.tabs = [];
   this.focused = null;
 
-  this.cols = Terminal.geometry[0];
-  this.rows = Terminal.geometry[1];
+  this.cols = 120;
+  this.rows = 38;
 
   el.appendChild(grip);
   el.appendChild(bar);
@@ -899,7 +899,7 @@ function load() {
   tty.open();
   setTimeout(function() {
     document.getElementById("open").click();
-  }, 1000);
+  }, 2000);
 }
 
 on(document, 'load', load);
