@@ -556,8 +556,8 @@ Window.prototype.previousTab = function() {
 function Tab(win, socket) {
   var self = this;
 
-  var cols = win.cols
-    , rows = win.rows;
+  var cols = 120
+    , rows = 38;
 
   Terminal.call(this, {
     cols: cols,
